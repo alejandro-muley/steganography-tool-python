@@ -62,3 +62,13 @@ python decoder.py --stego estego_imagen.png --key MI_CLAVE --out recuperado/
 * `decoder.py`: Main script to extract the hidden content.
 * `stego_core.py`: Core module handling the mathematical and processing logic for steganography.
 * `stress_test.py`: Script for load testing and algorithm performance analysis.
+
+---
+
+## 👥 Contributors
+
+This project was developed as a collaborative academic effort by:
+* **Alejandro Muley** 
+* **Carlos García** 
+* **Gorka Sagristà** 
+* **Aiman El Yahyaoui** 
