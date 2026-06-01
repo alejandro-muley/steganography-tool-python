@@ -1,0 +1,17 @@
+## Texto
+
+python encoder.py --cover portadora_4k.png --payload mensaje.txt --key MI_CLAVE --out estego_texto.png --profile balanced
+
+python decoder.py --stego estego_texto.png --key MI_CLAVE --out recuperado/
+
+## Audio
+
+python encoder.py --cover portadora_4k.png --payload metalpipe.wav --key MI_CLAVE --out estego_audio.png --profile balanced
+
+python decoder.py --stego estego_audio.png --key MI_CLAVE --out recuperado/
+
+## Imagen
+
+python encoder.py --cover portadora_4k.png --payload secreto.png --key MI_CLAVE --out estego_imagen.png --profile balanced
+
+python decoder.py --stego estego_imagen.png --key MI_CLAVE --out recuperado/

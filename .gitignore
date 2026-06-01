@@ -1,0 +1,8 @@
+__pycache__/
+.idea/
+.vscode/
+recuperado/
+estego_*.png
+*4k.png
+*4k.jpg
+metalpipe.wav
